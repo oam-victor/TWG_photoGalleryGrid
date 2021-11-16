@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    padding: 0px;
+    margin: 2px;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    /* grid-template-rows: repeat(auto-fill, minmax(300px, 1fr)); */
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.container > img{
+    border: 1px solid black;
+}
